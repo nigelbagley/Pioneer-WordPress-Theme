@@ -1,0 +1,26 @@
+.landing-header{
+	background-image: url(img/header-background.jpg);
+	height:100vh;
+	background-size: cover;
+	display: flex;
+}
+
+header{
+	// background-image: url(img/header-background.jpg);
+	position: fixed;
+	width: 100%;
+	padding-top: 20px;
+	// border-bottom: 1px solid white;
+	// padding-bottom: 20px;
+}
+
+.orange-box-social{
+	background-color: #d25400;
+	padding: 15px;
+	margin:10px;
+}
+.orange-boxes{
+	margin:auto;
+	flex-direction: row;
+	display: flex;
+}

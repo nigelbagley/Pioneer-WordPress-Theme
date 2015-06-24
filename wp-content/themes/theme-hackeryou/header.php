@@ -5,7 +5,9 @@
   <meta charset="<?php bloginfo( 'charset' ); ?>" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title><?php  wp_title('|', true, 'right'); ?></title>
+  <link href='http://fonts.googleapis.com/css?family=Montserrat|Open+Sans:400,700,600' rel='stylesheet' type='text/css'>
   <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
   <?php // Load our CSS ?>
   <link rel="stylesheet" type="text/css" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
@@ -15,9 +17,10 @@
 
 
 <body <?php body_class(); ?>>
-
+<div class="header-wrapper">
 <header>
   <div class="container">
+  
     <h1>
       <a href="<?php echo home_url( '/' ); ?>" title="<?php bloginfo( 'name', 'display' ); ?>" rel="home">
         <?php bloginfo( 'name' ); ?>
@@ -28,6 +31,8 @@
       'container' => false,
       'theme_locations' => 'primary'
     )); ?>
+  
   </div> <!-- /.container -->
 </header><!--/.header-->
+</div>
 
