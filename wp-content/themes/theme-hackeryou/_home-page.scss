@@ -3,6 +3,10 @@
 	height:100vh;
 	background-size: cover;
 	display: flex;
+	flex-direction:column;
+	h2{
+		margin: auto;
+	}
 }
 
 header{
@@ -18,9 +22,80 @@ header{
 	background-color: #d25400;
 	padding: 15px;
 	margin:10px;
+	display: flex;
+	img{
+		margin: auto;
+	}
 }
 .orange-boxes{
 	margin:auto;
 	flex-direction: row;
 	display: flex;
+	justify-content:center;
+}
+
+.header-container{
+	margin: auto;
+	h2{
+		text-transform: uppercase;
+		font-size: 40px;
+		letter-spacing: 8px;
+		text-align: center;
+		color: #fff;
+		font-weight: 400;
+	}
+	span{
+		color:#d25400;
+	}
+	h3{
+		text-align: center;
+		text-transform: uppercase;
+		color:#fff;
+		font-weight: 400;
+		letter-spacing: 2px;
+		font-size: 12px;
+		span{
+			color:#fff;
+			margin: 15px;
+		}
+	}
+}
+
+.services-container{
+	max-width: 800px;
+	margin: 0 auto;
+	h3{
+		font-size: 20px;
+		text-align: center;
+		text-transform: uppercase;
+	}
+	p{
+		font-size: 15px;
+		text-align: center;
+	}
+}
+
+.description{
+	border: 1px solid #000000;
+	margin: 11px;
+	position:relative;
+}
+.description-icon{
+	width: 25%;
+	margin: 0 auto;
+}
+.services-description{
+
+		display: flex;
+		flex-direction: row;
+		max-width: 1000px;
+	 	margin: 0 auto;
+
+}
+
+// Start of Portfolio
+
+.portoflio-pieces{
+	display: flex;
+	flex-wrap: wrap;
 }

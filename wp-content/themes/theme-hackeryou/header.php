@@ -17,7 +17,7 @@
 
 
 <body <?php body_class(); ?>>
-<div class="header-wrapper">
+
 <header>
   <div class="container">
   
@@ -34,5 +34,5 @@
   
   </div> <!-- /.container -->
 </header><!--/.header-->
-</div>
+
 
