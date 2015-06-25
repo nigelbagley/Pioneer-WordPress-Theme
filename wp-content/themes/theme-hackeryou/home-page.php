@@ -26,7 +26,7 @@ get_header();  ?>
 
  <div class="main">
   <div class="container">
-<div class="services-container">
+<div class="services-container container-padding">
    <h3>Services</h3>
    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus accusantium repellendus consequatur dolor aperiam molestiae error. Pariatur, consequatur molestias temporibus.</p>
 </div>
@@ -63,17 +63,23 @@ get_header();  ?>
 	</div>
 </div>
 <div class="services-container">
-	 <a href="#">Contact Us</a>
+	<div class="contact">
+		<a href="#">Contact Us</a>
+	</div>
+</div>
+<div class="services-container container-padding">
 	 <h3>Portfolio</h3>
 	 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem vitae explicabo rem voluptatibus tempora. Aspernatur, iusto consectetur maxime modi cum!</p>
  </div>
 </div>
 <div class="portfolio">
 	<div class="services-container">
-		<a href="#">Production</a>
-		<a href="#">Design</a>
-		<a href="#">Photography</a>
-		<a href="#">Production</a>
+		<div class="portfolio-links">
+			<a href="#">Production</a>
+			<a href="#">Design</a>
+			<a href="#">Photography</a>
+			<a href="#">Production</a>
+		</div>
 	</div>
 	<div class="portoflio-pieces">
 		<div class="portfolio-boxes">
